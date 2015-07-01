@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\SoftServeTT\employee_fixed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SoftServeTT\employee_hour.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SoftServeTT\employee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SoftServeTT\main.cpp">
+    <ClCompile Include="..\main.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\employee_fixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\employee_hour.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\SoftServeTT\Employee.h">
+    <ClInclude Include="..\Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SoftServeTT\EmployeeFixed.h">
+    <ClInclude Include="..\EmployeeFixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\SoftServeTT\EmployeeHour.h">
+    <ClInclude Include="..\EmployeeHour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

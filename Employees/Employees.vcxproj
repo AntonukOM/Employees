@@ -10,6 +10,17 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\employee.cpp" />
+    <ClCompile Include="..\employee_fixed.cpp" />
+    <ClCompile Include="..\employee_hour.cpp" />
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Employee.h" />
+    <ClInclude Include="..\EmployeeFixed.h" />
+    <ClInclude Include="..\EmployeeHour.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{322C4092-F022-46AF-9B28-F061F82DD569}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,17 +88,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\SoftServeTT\employee.cpp" />
-    <ClCompile Include="..\..\SoftServeTT\employee_fixed.cpp" />
-    <ClCompile Include="..\..\SoftServeTT\employee_hour.cpp" />
-    <ClCompile Include="..\..\SoftServeTT\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\SoftServeTT\Employee.h" />
-    <ClInclude Include="..\..\SoftServeTT\EmployeeFixed.h" />
-    <ClInclude Include="..\..\SoftServeTT\EmployeeHour.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
